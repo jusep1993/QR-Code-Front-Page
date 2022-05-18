@@ -1,3 +1,7 @@
+html, body{
+    font-family: 'Outfit', sans-serif;
+    margin: 0px;
+}
 body{
     background: hsl(212, 45%, 89%);
     height: 100vh;
@@ -26,10 +30,8 @@ body{
     padding: 9px;
 }
 .main-img{
-    background-color: hsl(218, 44%, 22%);
-    padding: 50px;
     border-radius: 15px;
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 
@@ -41,11 +43,13 @@ body{
 }
 
 .main-text-2{
+   font-weight: 400; 
    color: hsl(212, 45%, 60%);
    margin: 20px;
 }
 
 footer{
     align-self: center;
+    margin-bottom: 5px;
 }
 
